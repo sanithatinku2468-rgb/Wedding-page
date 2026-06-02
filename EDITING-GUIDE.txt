@@ -1,0 +1,18 @@
+Edit invitation content in:
+
+editable-config.js
+
+You can change:
+- Couple names and display name
+- Page/share description
+- Opening cover text
+- Date, time, countdown target, venue, dress code
+- Schedule items
+- Map and RSVP links
+- Music file path
+- Cover, hero, background, QR, and gallery image paths
+- All section labels and button text
+
+For WhatsApp sharing after hosting:
+- Keep share-preview.jpg in assets, or replace it with a 1200x630 image.
+- In index.html, update og:image to the public hosted image URL if WhatsApp does not pick up the relative path.

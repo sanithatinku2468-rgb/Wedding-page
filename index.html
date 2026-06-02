@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anderson & Aleena | Wedding Invitation</title>
+    <meta
+      name="description"
+      content="A cinematic digital wedding invitation for Anderson and Aleena."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Anderson & Aleena | Wedding Invitation" />
+    <meta
+      property="og:description"
+      content="Join Anderson and Aleena for their wedding celebration on Saturday, 11 July 2026."
+    />
+    <meta property="og:image" content="assets/share-preview.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#eff3e8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="assets/photo-2-mobile.webp" />
+    <link rel="preload" as="image" href="assets/photo-5-mobile.webp" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="invitation-closed">
+    <div class="grain" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <section class="opening-cover" aria-label="Opening invitation cover">
+      <div class="cover-photo" aria-hidden="true">
+        <img id="coverPhoto" src="assets/photo-2-mobile.webp" alt="" fetchpriority="high" />
+      </div>
+      <div class="cover-panel">
+        <p class="eyebrow" id="coverKicker">Wedding Invitation</p>
+        <h1 class="cover-title shine-text" id="coverTitle">Anderson &amp; Aleena</h1>
+        <p class="cover-date" id="coverDate">Saturday, 11 July 2026</p>
+        <button class="open-invite" type="button">
+          <span class="ring-mark" aria-hidden="true"></span>
+          <span id="coverButtonText">Tap to Open</span>
+        </button>
+      </div>
+    </section>
+
+    <main class="invite-shell">
+      <section class="couple-section reveal-section" id="couple" aria-label="Couple names">
+        <div class="couple-frame">
+          <p class="eyebrow" id="coupleKicker">With joyful hearts</p>
+          <h1 class="couple-names shine-text">
+            <span id="brideName">Anderson</span>
+            <em>&amp;</em>
+            <span id="groomName">Aleena</span>
+          </h1>
+          <p class="date-line" id="heroDate">Saturday, 11 July 2026</p>
+        </div>
+      </section>
+
+      <section class="hero reveal-section" aria-label="Wedding invitation">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            class="hero-photo"
+            src="assets/couple-hero-mobile.webp"
+            alt=""
+            data-fallback="true"
+          />
+          <div class="fallback-scene">
+            <span class="moon"></span>
+            <span class="veil veil-a"></span>
+            <span class="veil veil-b"></span>
+            <span class="spark s1"></span>
+            <span class="spark s2"></span>
+            <span class="spark s3"></span>
+          </div>
+        </div>
+
+        <nav class="topbar" aria-label="Invitation sections">
+          <a href="#story" id="navStory">Story</a>
+          <a href="#moments" id="navMoments">Moments</a>
+          <a href="#details" id="navDetails">Details</a>
+        </nav>
+
+        <div class="hero-copy">
+          <p class="eyebrow" id="heroKicker">Together with their families</p>
+          <h2 class="hero-heading" id="heroHeading">You are invited to their wedding celebration.</h2>
+          <p class="date-line" id="heroDateRepeat">Saturday, 11 July 2026</p>
+        </div>
+
+        <div class="hero-footer">
+          <a class="primary-action" href="#rsvp"><span id="heroRsvpButton">RSVP</span></a>
+          <button class="music-button" type="button" aria-pressed="false">
+            <span class="music-bars" aria-hidden="true">
+              <i></i><i></i><i></i>
+            </span>
+            <span id="musicButtonText">Music</span>
+          </button>
+        </div>
+
+        <a class="scroll-cue" href="#story" aria-label="Scroll to invitation story">
+          <span></span>
+        </a>
+      </section>
+
+      <section class="countdown-panel reveal-section" aria-label="Countdown">
+        <div>
+          <strong data-count="days">00</strong>
+          <span id="countdownDays">Days</span>
+        </div>
+        <div>
+          <strong data-count="hours">00</strong>
+          <span id="countdownHours">Hours</span>
+        </div>
+        <div>
+          <strong data-count="minutes">00</strong>
+          <span id="countdownMinutes">Minutes</span>
+        </div>
+        <div>
+          <strong data-count="seconds">00</strong>
+          <span id="countdownSeconds">Seconds</span>
+        </div>
+      </section>
+
+      <section class="section story-section reveal-section" id="story">
+        <p class="section-kicker" id="storyKicker">The invitation</p>
+        <h2 id="storyHeading">From quiet walks to forever vows.</h2>
+        <p id="storyBody">
+          It started with a digital matrimonial connection, but it became real
+          at L'eto. What was supposed to be a simple first meeting turned into
+          hours of endless talking, laughing, and truly getting to know one
+          another. As days turned into beautiful moments together, the
+          realization was simple and clear, as our hearts arrived at the exact
+          same question: <span class="italian-script">Why not a forever?</span>
+        </p>
+      </section>
+
+      <section class="gallery-section reveal-section" id="moments" aria-label="Photo gallery">
+        <div class="gallery-track">
+          <figure>
+            <img src="assets/photo-1-mobile.webp" alt="Anderson and Aleena walking together in the woods" loading="lazy" decoding="async" />
+          </figure>
+          <figure>
+            <img src="assets/photo-2-mobile.webp" alt="Close portrait of Anderson and Aleena smiling" loading="lazy" decoding="async" />
+          </figure>
+          <figure>
+            <img src="assets/photo-3-mobile.webp" alt="Anderson and Aleena holding hands by the sea" loading="lazy" decoding="async" />
+          </figure>
+          <figure>
+            <img src="assets/photo-4-mobile.webp" alt="Anderson and Aleena smiling on the beach" loading="lazy" decoding="async" />
+          </figure>
+          <figure>
+            <img src="assets/photo-5-mobile.webp" alt="Anderson and Aleena facing the ocean" loading="lazy" decoding="async" />
+          </figure>
+          <figure>
+            <img src="assets/couple-hero-mobile.webp" alt="Anderson and Aleena dancing in the woods" loading="lazy" decoding="async" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section details-section reveal-section" id="details">
+        <p class="section-kicker" id="detailsKicker">Wedding day</p>
+        <h2 id="eventTitle">Ceremony & Reception</h2>
+
+        <div class="detail-list">
+          <article>
+            <span id="whenLabel">When</span>
+            <strong id="eventDate">Saturday, 11 July 2026</strong>
+            <small id="eventTime">11:00 AM onwards</small>
+          </article>
+          <article>
+            <span id="whereLabel">Where</span>
+            <div class="venue-with-qr">
+              <div>
+                <strong id="venueName">St. Sebastian Roman Catholic Latin Church</strong>
+                <small id="venueAddress">Aluvassery</small>
+              </div>
+              <a class="qr-link" id="qrLink" href="#" target="_blank" rel="noreferrer" aria-label="Open map location">
+                <img id="qrImage" src="assets/map-qr.svg" alt="QR code for St. Sebastian's Church map location" />
+              </a>
+            </div>
+          </article>
+          <article>
+            <span id="lunchLabel">Lunch thereafter</span>
+            <div class="venue-with-qr lunch-with-qr">
+              <div>
+                <strong id="lunchVenueName">Thevarcad Convention Center</strong>
+                <small id="lunchVenueAddress">Valliyode, Vadakkenchery</small>
+                <a class="inline-map-link" id="lunchMapLink" href="#" target="_blank" rel="noreferrer">
+                  Location
+                </a>
+              </div>
+              <a class="qr-link" id="lunchQrLink" href="#" target="_blank" rel="noreferrer" aria-label="Open lunch venue map location">
+                <img id="lunchQrImage" src="assets/lunch-map-qr.svg" alt="QR code for Thevarcad Convention Center map location" />
+              </a>
+            </div>
+          </article>
+          <article>
+            <span id="dressLabel">Dress code</span>
+            <strong id="dressCode">Modest and formal attire</strong>
+            <small id="dressNote">Graceful celebration wear</small>
+          </article>
+        </div>
+
+        <a class="map-link" id="mapLink" href="#" target="_blank" rel="noreferrer">
+          <span id="mapButtonText">Open Map</span>
+        </a>
+      </section>
+
+      <section class="blessing-section reveal-section" aria-label="Closing blessing">
+        <p class="section-kicker" id="blessingKicker">A blessing</p>
+        <blockquote>
+          <p id="blessingVerse">
+            &ldquo;Above all these things, walk in love, which is the bond of
+            perfection.&rdquo;
+          </p>
+          <cite id="blessingReference">Colossians 3:14</cite>
+        </blockquote>
+      </section>
+
+      <section class="rsvp-section reveal-section" id="rsvp">
+        <p class="section-kicker" id="rsvpKicker">Kindly reply</p>
+        <h2 id="rsvpHeading">Celebrate with Anderson & Aleena.</h2>
+        <a class="primary-action" id="rsvpLink" href="mailto:hello@example.com">
+          <span id="rsvpButtonText">Send RSVP</span>
+        </a>
+      </section>
+    </main>
+
+    <audio id="weddingMusic" src="assets/music.mp3" preload="metadata" loop></audio>
+    <script src="editable-config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
